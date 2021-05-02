@@ -1,0 +1,48 @@
+.Bg-style {
+	float: left;
+    background-image: linear-gradient(100deg, #474747, #313131);
+	width: auto;
+	height: auto;
+    color: #FFFFFF;
+	margin: 10px;
+
+}
+.ID-style {
+    font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+.Title-style {
+    font-size: 40px;
+    text-align: center;
+}
+
+.img-style {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+.p-style {
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+.year-style {
+    font-size: 16px;
+	color: #FFFFFF;
+
+}
+.genre-style {
+    font-size: 16px;
+	color: #FFFFFF;
+
+}
+.video-style {
+    width:420; 
+    height:345;
+
+}

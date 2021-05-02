@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <script src="finkino-theaters.js"></script>
+    <script src="finkino-theaters-test.js"></script>
+    <script src="Eventsfixfix.js"></script>
+    <script src="schedule.js"></script>
+
+    <title> Ajax </title>
+</head>
+<body>
+    <div id="theaters-text">Sisältää tiedon teattereista 
+        <button type="button" onclick="loadXMLinfo()">Change Content</button>
+    </div>
+    <div id="theaters-div"></div>
+    <div id="schedule-text">Sisältää tiedon aikatauluista</div>
+    <div id="schedule-div">Sisältää tiedon aikatauluista</div>
+    <div id="dropbox-div">
+    <form>
+        <select name="theaters" id="theater">
+        <option id="0"></option>
+        <option id="1"></option>
+        <option id="2"></option>
+        <option id="3"></option>
+        <option id="4"></option>
+        <option id="5"></option>
+        <option id="6"></option>
+        <option id="7"></option>
+        <option id="8"></option>
+        <option id="9"></option>
+        <option id="10"></option>
+        <option id="11"></option>
+        <option id="12"></option>
+        <option id="13"></option>
+        <option id="14"></option>
+        <option id="15"></option>
+        <option id="16"></option>
+        <option id="17"></option>
+        <option id="18"></option>
+        <option id="19"></option>
+        <option id="20"></option>
+      </select>
+      <input type="checkbox" onclick="loadXMLEvents()"> 
+    </form>
+    </div>
+    <div1 id="events-divc"></div1>
+    
+</body>
+</html>
